@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -66,3 +70,46 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+/* index.css */
+
+/* Navigation Bar Styles */
+nav {
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  right: 0;
+  background-color: #242424;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+nav a {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #535BF2;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+.loading, .noMov{
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.125rem/* 18px */;
+  line-height: 1.75rem/* 28px */;
+  margin-top: 10rem;
+}
+
+/* .favGrid{
+  width: 100vw;
+} */
+
+
+
