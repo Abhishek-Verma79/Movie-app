@@ -8,7 +8,7 @@ const FavoriteMovies = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-16">
       {favorites.map(movie => (
-        <div key={movie.id} className="bg-white rounded-lg shadow-lg p-4 text-black">
+        <div key={movie.id} className="bg-white rounded-lg shadow-lg p-4 text-black hover:scale-105 transition-all">
           <h3 className="text-lg font-bold">{movie.movie}</h3>
           
           <p>Rating: {movie.rating}</p>

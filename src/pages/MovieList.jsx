@@ -10,14 +10,15 @@ const MovieList = () => {
   };
 
   if (status === 'loading') return <div className='loading'>Loading...</div>;
-  if (status === 'failed') return <div>Error: {error}</div>;
+  if (status === 'failed') return <div className='failed' >Error: {error}</div>;
+  console.log(movies);
 
   return (
     
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-16">
-          {/* <img src="https://upload.wikimedia.org/wikipedia/sco/8/8a/Dark_Knight.jpg" alt="" /> */}
       {movies.map(movie => (
-        <div key={movie.id} className="movie-card bg-white rounded-lg shadow-lg p-4 text-black" style={{ backgroundImage: `url(${movie.image})` }}>
+        <div key={movie.id} className="movie-card bg-white rounded-lg shadow-lg p-4 text-black hover:scale-105 transition-all " style={{ backgroundImage: `url(${movie.image})` }}>
+          
           <div className="overlay">
             <h3 className="text-lg font-bold">{movie.movie}</h3>
             

@@ -19,7 +19,7 @@ const App = () => {
           <Link to="/" className="text-xl font-bold">Movies</Link>
           <Link to="/favorites" className="text-xl font-bold">Favorites</Link>
         </nav>
-        <Routes> {/* Wrap Route components in Routes */}
+        <Routes>
           <Route path="/" element={<MovieList />} />
           <Route path="/favorites" element={<FavoriteMovies />} />
         </Routes>
