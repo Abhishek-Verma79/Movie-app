@@ -11,7 +11,7 @@ const MovieList = () => {
 
   if (status === 'loading') return <div className='loading'>Loading...</div>;
   if (status === 'failed') return <div className='failed' >Error: {error}</div>;
-  console.log(movies);
+  // console.log(movies);
 
   return (
     
