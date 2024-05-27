@@ -38,7 +38,7 @@ You can see a live demo of the project [here](https://movies-app-abhishek.netlif
 2. **Navigate to the Project Directory:**
 
    ```bash
-   cd Movie-app
+   cd movie-list-react-app
 
 3. **Install Dependencies:**
 
