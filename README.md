@@ -1,6 +1,6 @@
-# Movie List React App
+# Movie App
 
-Welcome to the Movie List React App! This is a responsive web application built with React, Redux, Axios, and Tailwind CSS. It allows users to browse a list of movies fetched from an external API and mark their favorite movies.
+Welcome to the Movie App! This is a responsive web application built with React, Redux, Axios, and Tailwind CSS. It allows users to browse a list of movies fetched from an external API and mark their favorite movies.
 
 ## Table of Contents
 
@@ -42,7 +42,7 @@ You can see the explanation video of the project [here](https://drive.google.com
 2. **Navigate to the Project Directory:**
 
    ```bash
-   cd movie-list-react-app
+   cd .\Movie-app\
 
 3. **Install Dependencies:**
 
