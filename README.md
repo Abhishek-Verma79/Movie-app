@@ -54,6 +54,15 @@ You can see a live demo of the project [here](https://movies-app-abhishek.netlif
 
   - After running the last command, the terminal will display a localhost address. You can either copy and paste that link into your browser or simply ctrl+click on it to open the application directly in your browser.
 
+
+## Technologies Used
+
+- React
+- Redux
+- Axios
+- Tailwind CSS
+
+
 ## Folder Structure
 
 
@@ -87,9 +96,4 @@ Movie-app/
 └── vite.config.js  
  
 
-## Technologies Used
 
-- React
-- Redux
-- Axios
-- Tailwind CSS
