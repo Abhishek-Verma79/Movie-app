@@ -30,7 +30,7 @@ You can see the explanation video of the project [here](https://drive.google.com
 
 ### Prerequisites
 
-- Node.js installed on your local machine
+- Node.js should be installed on your local machine
 
 ### Installation Steps
 
