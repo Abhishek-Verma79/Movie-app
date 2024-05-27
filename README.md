@@ -6,6 +6,7 @@ Welcome to the Movie List React App! This is a responsive web application built 
 
 - [Features](#features)
 - [Demo](#demo)
+- [Project Explanation Video Link](#Project-explanation-video-link)
 - [Setup Instructions](#setup-instructions)
 - [Technologies Used](#technologies-used)
 - [Folder Structure](#folder-structure)
@@ -15,12 +16,15 @@ Welcome to the Movie List React App! This is a responsive web application built 
 - Fetches movie data from an external API.
 - Displays movies sorted by rating.
 - Allows users to mark movies as favorites.
-- Provides smooth navigation between movie list and favorite movies.
+- Provides smooth navigation between the movie list and favorite movies.
 - Responsive design for desktop, tablet, and mobile devices.
 
 ## Demo
 
 You can see a live demo of the project [here](https://movies-app-abhishek.netlify.app/).
+
+## Project Explanation Video Link
+You can see the explanation video of the project [here](https://drive.google.com/file/d/186eGnxdcyCaaW0tqep49djPHKSyoBv6e/view?usp=sharing) 
 
 ## Setup Instructions
 
@@ -91,6 +95,7 @@ Movie-app/
 ├── package-lock.json  
 ├── package.json  
 ├── postcss.config.js  
+├── Project explanation video link.txt  
 ├── README.md  
 ├── tailwind.config.js  
 └── vite.config.js  
