@@ -24,7 +24,7 @@ Welcome to the Movie List React App! This is a responsive web application built 
 You can see a live demo of the project [here](https://movies-app-abhishek.netlify.app/).
 
 ## Project Explanation Video Link
-You can see the explanation video of the project [here](https://drive.google.com/file/d/186eGnxdcyCaaW0tqep49djPHKSyoBv6e/view?usp=sharing) 
+You can see the explanation video of the project [here](https://drive.google.com/file/d/186eGnxdcyCaaW0tqep49djPHKSyoBv6e/view?usp=sharing).
 
 ## Setup Instructions
 
